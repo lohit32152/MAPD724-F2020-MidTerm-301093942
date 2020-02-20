@@ -36,12 +36,12 @@ class GameScene: SKScene {
         
         // add ocean
         self.oceanSprite1 = Ocean()
-        self.oceanSprite1?.position = CGPoint(x: 0, y: 1864.67)
+        self.oceanSprite1?.position = CGPoint(x: 0, y: -1864)
         self.addChild(oceanSprite1!)
         
-        self.oceanSprite2 = Ocean()
-        self.oceanSprite2?.position = CGPoint(x: 0, y: 177)
-        self.addChild(oceanSprite2!)
+       self.oceanSprite2 = Ocean()
+       self.oceanSprite2?.position = CGPoint(x: 0, y: 177)
+       self.addChild(oceanSprite2!)
         
         // add plane
         self.planeSprite = Plane()
@@ -53,7 +53,7 @@ class GameScene: SKScene {
         self.addChild(islandSprite!)
         
         // add clouds
-        for index in 0...1
+        for index in 0...0
         {
             let cloud: Cloud = Cloud()
             cloudSprites.append(cloud)
