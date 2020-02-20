@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  MAPD724-W2020-Lesson2
-//
-//  Created by Tom Tsiliopoulos on 2020-01-15.
-//  Copyright © 2020 CentennialCollege. All rights reserved.
+//  MAPD724-F2020-MidTerm-301093942
+//  Student Name: Lohit Mahay
+//  Student ID: 301093942
+//  Test Date: Feb 19, 2020
 //
 
 import UIKit
